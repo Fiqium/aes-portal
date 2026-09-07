@@ -42,6 +42,3 @@ State worth knowing: `likedFeedItems` tracks which feed posts the user has liked
 
 The "Latest AES Feed" hero carousel (top-right of the homepage) was upgraded from 3 hardcoded slides to 6 social-post-style cards: unit-branded avatars, author/category/date, optional photo, and a toggleable like button with live count. It reuses `unitsData`, `sulamProjects`, `aboutData.milestones`, and `microCoursesList` rather than hardcoding new content. The "View" button routes to the relevant unit tab, falling back to Resources for general announcements.
 
-## Contact
-
-[Add your contact info here if you want to stay reachable for questions during the transition.]
