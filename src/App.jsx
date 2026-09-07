@@ -13,6 +13,8 @@ import studentsImg from './img/IMG_4.jpg';
 import aesLogo from './img/AESnewlogo.jpg';
 import elLogo from './img/ELlogo.jpg';
 import ablLogo from './img/ABLlogo.jpg';
+import odlLogo from './img/ODLlogo.jpg';
+import heroBg from './img/herobg2.jpg';
 
 
 // Custom Announcement Banner Component
@@ -107,6 +109,7 @@ export default function App() {
                 "Flexible Assessments and Synchronous Consultations"
             ],
             icon: "fa-globe-asia",
+            logo: odlLogo,
             color: "from-purple-600 to-pink-700"
         },
         sulam: {
@@ -602,14 +605,13 @@ export default function App() {
                             <img 
                                 src={aesLogo} // Update with your actual image path or import
                                 alt="AES Logo" 
-                                className="h-12 w-auto object-contain rounded-lg shadow-sm"
+                                className="h-20 w-auto object-contain"
                             />
                             <div>
                                 <div className="flex items-center gap-2">
-                                    <span className="text-xs tracking-wider font-extrabold text-uptm-crimson uppercase">Academic Excellence Sector</span>
-                                    <span className="text-[9px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-bold">UPTM</span>
-                                </div>
-                                <h1 className="text-lg font-extrabold tracking-tight text-uptm-navy-900">AES PORTAL</h1>
+                                    <h1 className="text-lg font-extrabold tracking-tight text-uptm-navy-900">AES PORTAL</h1>
+                                    <span className="text-[8.5px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-bold">UPTM</span>
+                                </div> 
                             </div>
                         </div>
 
@@ -688,7 +690,7 @@ export default function App() {
                         {/* Hero Section */}
                         <section className="hero-banner text-white py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
                             {/* Use a direct string path starting with '/' */}
-                            <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url(src/img/herobg2.jpg' }}></div>
+                            <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: `url(${heroBg})` }}></div>
                             <div className="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                                 <div className="lg:col-span-7 space-y-6">
                                     <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
