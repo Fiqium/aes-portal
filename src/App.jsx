@@ -14,6 +14,7 @@ import aesLogo from './img/AESnewlogo.jpg';
 import elLogo from './img/ELlogo.jpg';
 import ablLogo from './img/ABLlogo.jpg';
 import odlLogo from './img/ODLlogo.jpg';
+import apelLogo from './img/APELlogo.jpg';
 import heroBg from './img/herobg2.jpg';
 
 
@@ -155,6 +156,7 @@ export default function App() {
                 "Certified Prior Learning Assessors Matrix"
             ],
             icon: "fa-user-graduate",
+            logo: apelLogo,
             color: "from-amber-600 to-red-700"
         },
         abl: {
